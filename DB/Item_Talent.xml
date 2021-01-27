@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Item_Talent" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Item_Talent">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="Location" type="xs:string" minOccurs="0" />
+                <xs:element name="DayOfWeek" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Item_Talent>
+    <Name>Freedom</Name>
+    <Location>Mondstadt</Location>
+    <DayOfWeek>1,4</DayOfWeek>
+  </Item_Talent>
+  <Item_Talent>
+    <Name>Resistance</Name>
+    <Location>Mondstadt</Location>
+    <DayOfWeek>2,5</DayOfWeek>
+  </Item_Talent>
+  <Item_Talent>
+    <Name>Ballad</Name>
+    <Location>Mondstadt</Location>
+    <DayOfWeek>3,6</DayOfWeek>
+  </Item_Talent>
+  <Item_Talent>
+    <Name>Prosperity</Name>
+    <Location>Liyue</Location>
+    <DayOfWeek>1,4</DayOfWeek>
+  </Item_Talent>
+  <Item_Talent>
+    <Name>Diligence</Name>
+    <Location>Liyue</Location>
+    <DayOfWeek>2,5</DayOfWeek>
+  </Item_Talent>
+  <Item_Talent>
+    <Name>Gold</Name>
+    <Location>Liyue</Location>
+    <DayOfWeek>3,6</DayOfWeek>
+  </Item_Talent>
+</NewDataSet>
