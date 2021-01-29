@@ -108,8 +108,8 @@
     <ko>모나</ko>
   </Lang>
   <Lang>
-    <Name>Nungguang</Name>
-    <Default>Nungguang</Default>
+    <Name>Ningguang</Name>
+    <Default>Ningguang</Default>
     <ko>응광</ko>
   </Lang>
   <Lang>
@@ -171,5 +171,35 @@
     <Name>Zhongli</Name>
     <Default>Zhongli</Default>
     <ko>종려</ko>
+  </Lang>
+  <Lang>
+    <Name>Freedom</Name>
+    <Default>Freedom</Default>
+    <ko>자유</ko>
+  </Lang>
+  <Lang>
+    <Name>Resistance</Name>
+    <Default>Resistance</Default>
+    <ko>투쟁</ko>
+  </Lang>
+  <Lang>
+    <Name>Ballad</Name>
+    <Default>Ballad</Default>
+    <ko>시문</ko>
+  </Lang>
+  <Lang>
+    <Name>Prosperity</Name>
+    <Default>Prosperity</Default>
+    <ko>번영</ko>
+  </Lang>
+  <Lang>
+    <Name>Diligence</Name>
+    <Default>Diligence</Default>
+    <ko>근면</ko>
+  </Lang>
+  <Lang>
+    <Name>Gold</Name>
+    <Default>Gold</Default>
+    <ko>황금</ko>
   </Lang>
 </NewDataSet>

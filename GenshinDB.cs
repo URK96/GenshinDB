@@ -61,7 +61,7 @@ namespace GenshinDB_Core
             }
         }
 
-        public string[] GetResources()
+        public static string[] GetResources()
         {
             var assembly = Assembly.GetExecutingAssembly();
 
@@ -90,6 +90,8 @@ namespace GenshinDB_Core
                 (from lang in langs where lang.Name.Equals("Liyue") select lang).First().Dic[langIndex]
             };
         }
+
+        public string FindLangDic(string name) => langs.Find(x => x.Name.Equals(name)).Dic[GetLangIndex()];
 
         private string GetLangIndex()
         {

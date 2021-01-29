@@ -18,6 +18,8 @@ namespace GenshinDB_Core
 
         public Character(DataRow dr)
         {
+            string talent = 
+
             Name = dr["Name"] as string;
             TalentItem = new List<string>((dr["TalentItem"] as string).Split(','));
 
