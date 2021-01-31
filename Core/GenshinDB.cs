@@ -38,7 +38,7 @@ namespace GenshinDB_Core
             var langDT = new DataTable();
 
             var assembly = Assembly.GetExecutingAssembly();
-            
+
             using var characterStream = assembly.GetManifestResourceStream($"{EMBED_NAMESPACE}Character.xml");
             using var talentItemStream = assembly.GetManifestResourceStream($"{EMBED_NAMESPACE}Item_Talent.xml");
             using var langStream = assembly.GetManifestResourceStream($"{EMBED_NAMESPACE}Lang.xml");
@@ -51,10 +51,16 @@ namespace GenshinDB_Core
             {
                 characters.Add(new Character(dr));
             }
+
             foreach (DataRow dr in talentItemDT.Rows)
             {
                 talentItems.Add(new TalentItem(dr));
             }
+            foreach (Locations location in Enum.GetValues(typeof(Locations)))
+            {
+                talentItems.Add(new TalentItem(location, new[] { DayOfWeek.Sunday }));
+            }
+
             foreach (DataRow dr in langDT.Rows)
             {
                 langs.Add(new Lang(dr));

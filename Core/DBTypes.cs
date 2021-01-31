@@ -49,6 +49,13 @@ namespace GenshinDB_Core
 
         public List<DayOfWeek> AvailableDayOfWeeks { get; private set; }
         
+        public TalentItem(GenshinDB.Locations location, DayOfWeek[] dayOfWeeks)
+        {
+            ItemName = "All";
+            Location = location;
+            AvailableDayOfWeeks = new List<DayOfWeek>(dayOfWeeks);
+        }
+
         public TalentItem(DataRow dr)
         {
             ItemName = dr["Name"] as string;
