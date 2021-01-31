@@ -3,12 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenshinDB-Core", "GenshinDB-Core.csproj", "{A727DBDA-3490-48A1-B821-44A5E4431BD5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenshinDB-Core-Test", "..\GenshinDB-Core-Test\GenshinDB-Core-Test.csproj", "{AE1B867C-C95B-4BB3-9578-BD056B186D01}"
-	ProjectSection(ProjectDependencies) = postProject
-		{A727DBDA-3490-48A1-B821-44A5E4431BD5} = {A727DBDA-3490-48A1-B821-44A5E4431BD5}
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenshinDB-Core", "Core\GenshinDB-Core.csproj", "{906B3A55-B1BD-4038-B031-2DFB26F364B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,19 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A727DBDA-3490-48A1-B821-44A5E4431BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A727DBDA-3490-48A1-B821-44A5E4431BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A727DBDA-3490-48A1-B821-44A5E4431BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A727DBDA-3490-48A1-B821-44A5E4431BD5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AE1B867C-C95B-4BB3-9578-BD056B186D01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AE1B867C-C95B-4BB3-9578-BD056B186D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AE1B867C-C95B-4BB3-9578-BD056B186D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AE1B867C-C95B-4BB3-9578-BD056B186D01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{906B3A55-B1BD-4038-B031-2DFB26F364B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{906B3A55-B1BD-4038-B031-2DFB26F364B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{906B3A55-B1BD-4038-B031-2DFB26F364B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{906B3A55-B1BD-4038-B031-2DFB26F364B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {59A3A61E-9D8D-40C0-869F-16DBA289FD1C}
+		SolutionGuid = {CFDD0953-DCAC-46F4-AFFC-2608F835AC9B}
 	EndGlobalSection
 EndGlobal
