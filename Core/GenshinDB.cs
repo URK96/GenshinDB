@@ -22,8 +22,10 @@ namespace GenshinDB_Core
 
         public DataTable langDT;
 
-        public GenshinDB()
+        public GenshinDB(CultureInfo cultureInfo = null)
         {
+            DBEnv.dbCultureInfo = cultureInfo ?? CultureInfo.CurrentCulture;
+
             characters = new List<Character>();
             talentItems = new List<TalentItem>();
             langs = new List<Lang>();
@@ -101,9 +103,9 @@ namespace GenshinDB_Core
 
         private string GetLangIndex()
         {
-            return CultureInfo.CurrentCulture.TwoLetterISOLanguageName switch
+            return DBEnv.dbCultureInfo.Name switch
             {
-                "ko" => "ko",
+                "ko-KR" => "ko",
                 _ => "Default"
             };
         }
