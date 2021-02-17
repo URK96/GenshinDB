@@ -202,4 +202,39 @@
     <Default>Gold</Default>
     <ko>황금</ko>
   </Lang>
+  <Lang>
+    <Name>Pyro</Name>
+    <Default>Pyro</Default>
+    <ko>불</ko>
+  </Lang>
+  <Lang>
+    <Name>Hydro</Name>
+    <Default>Hydro</Default>
+    <ko>물</ko>
+  </Lang>
+  <Lang>
+    <Name>Dendro</Name>
+    <Default>Dendro</Default>
+    <ko>풀</ko>
+  </Lang>
+  <Lang>
+    <Name>Electro</Name>
+    <Default>Electro</Default>
+    <ko>전기</ko>
+  </Lang>
+  <Lang>
+    <Name>Anemo</Name>
+    <Default>Anemo</Default>
+    <ko>바람</ko>
+  </Lang>
+  <Lang>
+    <Name>Cryo</Name>
+    <Default>Cryo</Default>
+    <ko>얼음</ko>
+  </Lang>
+  <Lang>
+    <Name>Geo</Name>
+    <Default>Geo</Default>
+    <ko>바위</ko>
+  </Lang>
 </NewDataSet>

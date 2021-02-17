@@ -129,8 +129,13 @@
   </Character>
   <Character>
     <Name>Traveler</Name>
-    <ElementType>Adaptive</ElementType>
-    <TalentItem>All</TalentItem>
+    <ElementType>Anemo</ElementType>
+    <TalentItem>Ballad,Freedom,Resistance</TalentItem>
+  </Character>
+  <Character>
+    <Name>Traveler</Name>
+    <ElementType>Geo</ElementType>
+    <TalentItem>Diligence,Gold,Prosperity</TalentItem>
   </Character>
   <Character>
     <Name>Venti</Name>

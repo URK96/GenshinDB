@@ -10,7 +10,7 @@ namespace GenshinDB_Core
 {
     public class Character
     {
-        public enum ElementTypes { Pyro, Hydro, Dendro, Electro, Anemo, Cryo, Geo, Adaptive }
+        public enum ElementTypes { Pyro, Hydro, Dendro, Electro, Anemo, Cryo, Geo }
 
         public string Name { get; private set; }
         public ElementTypes ElementType { get; private set; }
@@ -18,8 +18,6 @@ namespace GenshinDB_Core
 
         public Character(DataRow dr)
         {
-            string talent = 
-
             Name = dr["Name"] as string;
             TalentItem = new List<string>((dr["TalentItem"] as string).Split(','));
 
@@ -37,7 +35,7 @@ namespace GenshinDB_Core
                 "Anemo" => ElementTypes.Anemo,
                 "Cryo" => ElementTypes.Cryo,
                 "Geo" => ElementTypes.Geo,
-                _ => ElementTypes.Adaptive
+                _ => ElementTypes.Pyro
             };
         }
     }
