@@ -9,6 +9,7 @@
               <xs:sequence>
                 <xs:element name="Name" type="xs:string" minOccurs="0" />
                 <xs:element name="ElementType" type="xs:string" minOccurs="0" />
+                <xs:element name="WeaponType" type="xs:string" minOccurs="0" />
                 <xs:element name="TalentItem" type="xs:string" minOccurs="0" />
               </xs:sequence>
             </xs:complexType>
@@ -20,151 +21,181 @@
   <Character>
     <Name>Albedo</Name>
     <ElementType>Geo</ElementType>
+    <WeaponType>Sword</WeaponType>
     <TalentItem>Ballad</TalentItem>
   </Character>
   <Character>
     <Name>Amber</Name>
     <ElementType>Pyro</ElementType>
+    <WeaponType>Bow</WeaponType>
     <TalentItem>Freedom</TalentItem>
   </Character>
   <Character>
     <Name>Barbara</Name>
     <ElementType>Hydro</ElementType>
+    <WeaponType>Catalyst</WeaponType>
     <TalentItem>Freedom</TalentItem>
   </Character>
   <Character>
     <Name>Beidou</Name>
     <ElementType>Electro</ElementType>
+    <WeaponType>Claymore</WeaponType>
     <TalentItem>Gold</TalentItem>
   </Character>
   <Character>
     <Name>Bennett</Name>
     <ElementType>Pyro</ElementType>
+    <WeaponType>Sword</WeaponType>
     <TalentItem>Resistance</TalentItem>
   </Character>
   <Character>
     <Name>Chongyun</Name>
     <ElementType>Cryo</ElementType>
+    <WeaponType>Claymore</WeaponType>
     <TalentItem>Diligence</TalentItem>
   </Character>
   <Character>
     <Name>Diluc</Name>
     <ElementType>Pyro</ElementType>
+    <WeaponType>Claymore</WeaponType>
     <TalentItem>Resistance</TalentItem>
   </Character>
   <Character>
     <Name>Diona</Name>
     <ElementType>Cryo</ElementType>
+    <WeaponType>Bow</WeaponType>
     <TalentItem>Freedom</TalentItem>
   </Character>
   <Character>
     <Name>Fischl</Name>
     <ElementType>Electro</ElementType>
+    <WeaponType>Bow</WeaponType>
     <TalentItem>Ballad</TalentItem>
   </Character>
   <Character>
     <Name>Ganyu</Name>
     <ElementType>Cryo</ElementType>
+    <WeaponType>Bow</WeaponType>
     <TalentItem>Diligence</TalentItem>
   </Character>
   <Character>
     <Name>Jean</Name>
     <ElementType>Anemo</ElementType>
+    <WeaponType>Sword</WeaponType>
     <TalentItem>Resistance</TalentItem>
   </Character>
   <Character>
     <Name>Kaeya</Name>
     <ElementType>Cryo</ElementType>
+    <WeaponType>Sword</WeaponType>
     <TalentItem>Ballad</TalentItem>
   </Character>
   <Character>
     <Name>Keqing</Name>
     <ElementType>Electro</ElementType>
+    <WeaponType>Sword</WeaponType>
     <TalentItem>Prosperity</TalentItem>
   </Character>
   <Character>
     <Name>Klee</Name>
     <ElementType>Pyro</ElementType>
+    <WeaponType>Catalyst</WeaponType>
     <TalentItem>Freedom</TalentItem>
   </Character>
   <Character>
     <Name>Lisa</Name>
     <ElementType>Electro</ElementType>
+    <WeaponType>Catalyst</WeaponType>
     <TalentItem>Ballad</TalentItem>
   </Character>
   <Character>
     <Name>Mona</Name>
     <ElementType>Hydro</ElementType>
+    <WeaponType>Catalyst</WeaponType>
     <TalentItem>Resistance</TalentItem>
   </Character>
   <Character>
     <Name>Ningguang</Name>
     <ElementType>Geo</ElementType>
+    <WeaponType>Catalyst</WeaponType>
     <TalentItem>Prosperity</TalentItem>
   </Character>
   <Character>
     <Name>Noelle</Name>
     <ElementType>Geo</ElementType>
+    <WeaponType>Claymore</WeaponType>
     <TalentItem>Resistance</TalentItem>
   </Character>
   <Character>
     <Name>Qiqi</Name>
     <ElementType>Cryo</ElementType>
+    <WeaponType>Sword</WeaponType>
     <TalentItem>Prosperity</TalentItem>
   </Character>
   <Character>
     <Name>Razor</Name>
     <ElementType>Electro</ElementType>
+    <WeaponType>Claymore</WeaponType>
     <TalentItem>Resistance</TalentItem>
   </Character>
   <Character>
     <Name>Sucrose</Name>
     <ElementType>Anemo</ElementType>
+    <WeaponType>Catalyst</WeaponType>
     <TalentItem>Freedom</TalentItem>
   </Character>
   <Character>
     <Name>Tartaglia</Name>
     <ElementType>Hydro</ElementType>
+    <WeaponType>Bow</WeaponType>
     <TalentItem>Freedom</TalentItem>
   </Character>
   <Character>
     <Name>Traveler</Name>
     <ElementType>Anemo</ElementType>
+    <WeaponType>Sword</WeaponType>
     <TalentItem>Ballad,Freedom,Resistance</TalentItem>
   </Character>
   <Character>
     <Name>Traveler</Name>
     <ElementType>Geo</ElementType>
+    <WeaponType>Sword</WeaponType>
     <TalentItem>Diligence,Gold,Prosperity</TalentItem>
   </Character>
   <Character>
     <Name>Venti</Name>
     <ElementType>Anemo</ElementType>
+    <WeaponType>Bow</WeaponType>
     <TalentItem>Ballad</TalentItem>
   </Character>
   <Character>
     <Name>Xiangling</Name>
     <ElementType>Pyro</ElementType>
+    <WeaponType>Polearm</WeaponType>
     <TalentItem>Diligence</TalentItem>
   </Character>
   <Character>
     <Name>Xiao</Name>
     <ElementType>Anemo</ElementType>
+    <WeaponType>Polearm</WeaponType>
     <TalentItem>None</TalentItem>
   </Character>
   <Character>
     <Name>Xingqiu</Name>
     <ElementType>Hydro</ElementType>
+    <WeaponType>Sword</WeaponType>
     <TalentItem>Gold</TalentItem>
   </Character>
   <Character>
     <Name>Xinyan</Name>
     <ElementType>Pyro</ElementType>
+    <WeaponType>Claymore</WeaponType>
     <TalentItem>Gold</TalentItem>
   </Character>
   <Character>
     <Name>Zhongli</Name>
     <ElementType>Geo</ElementType>
+    <WeaponType>Polearm</WeaponType>
     <TalentItem>Gold</TalentItem>
   </Character>
 </NewDataSet>

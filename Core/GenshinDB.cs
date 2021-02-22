@@ -13,6 +13,8 @@ namespace GenshinDB_Core
     public class GenshinDB
     {
         public enum Locations { Mondstadt, Liyue }
+        public enum ElementTypes { Pyro, Hydro, Dendro, Electro, Anemo, Cryo, Geo }
+
 
         const string EMBED_NAMESPACE = "GenshinDB_Core.DB.";
 

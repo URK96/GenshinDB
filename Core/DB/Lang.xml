@@ -237,4 +237,29 @@
     <Default>Geo</Default>
     <ko>바위</ko>
   </Lang>
+  <Lang>
+    <Name>Bow</Name>
+    <Default>Bow</Default>
+    <ko>활</ko>
+  </Lang>
+  <Lang>
+    <Name>Catalyst</Name>
+    <Default>Catalyst</Default>
+    <ko>법구</ko>
+  </Lang>
+  <Lang>
+    <Name>Claymore</Name>
+    <Default>Claymore</Default>
+    <ko>양손검</ko>
+  </Lang>
+  <Lang>
+    <Name>Polearm</Name>
+    <Default>Polearm</Default>
+    <ko>장병기</ko>
+  </Lang>
+  <Lang>
+    <Name>Sword</Name>
+    <Default>Sword</Default>
+    <ko>한손검</ko>
+  </Lang>
 </NewDataSet>
