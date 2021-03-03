@@ -262,4 +262,9 @@
     <Default>Sword</Default>
     <ko>한손검</ko>
   </Lang>
+  <Lang>
+    <Name>HuTao</Name>
+    <Default>Hu Tao</Default>
+    <ko>호두</ko>
+  </Lang>
 </NewDataSet>
