@@ -8,7 +8,9 @@ namespace GenshinDB_Core_Test
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Enum.GetValues(typeof(GenshinDB.Locations)).GetValue(0));
+            var genshinDB = new GenshinDB();
+
+            Console.ReadLine();
         }
     }
 }

@@ -9,6 +9,7 @@
   <ItemGroup>
     <None Remove="DB\Character.xml" />
     <None Remove="DB\Item_Talent.xml" />
+    <None Remove="DB\Item_Weapon_Ascension.xml" />
     <None Remove="DB\Lang.xml" />
     <None Remove="DB\talent_item.json" />
   </ItemGroup>
@@ -16,6 +17,7 @@
   <ItemGroup>
     <EmbeddedResource Include="DB\Character.xml" />
     <EmbeddedResource Include="DB\Item_Talent.xml" />
+    <EmbeddedResource Include="DB\Item_Weapon_Ascension.xml" />
     <EmbeddedResource Include="DB\Lang.xml" />
   </ItemGroup>
 

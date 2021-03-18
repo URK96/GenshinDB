@@ -267,4 +267,154 @@
     <Default>Hu Tao</Default>
     <ko>호두</ko>
   </Lang>
+  <Lang>
+    <Name>Decarabian</Name>
+    <Default>Decarabian</Default>
+    <ko>고탑 왕</ko>
+  </Lang>
+  <Lang>
+    <Name>Decarabian_1</Name>
+    <Default>Tile of Decarabian's Tower</Default>
+    <ko>고탑 왕의 잔해</ko>
+  </Lang>
+  <Lang>
+    <Name>Decarabian_2</Name>
+    <Default>Debris of Decarabian's City</Default>
+    <ko>고탑 왕의 절망</ko>
+  </Lang>
+  <Lang>
+    <Name>Decarabian_3</Name>
+    <Default>Fragment of Decarabian's Epic</Default>
+    <ko>고탑 왕의 조각</ko>
+  </Lang>
+  <Lang>
+    <Name>Decarabian_4</Name>
+    <Default>Scattered Piece of Decarabian's Dream</Default>
+    <ko>고탑 왕의 깨진 꿈</ko>
+  </Lang>
+  <Lang>
+    <Name>Boreal Wolf</Name>
+    <Default>Boreal Wolf</Default>
+    <ko>칼바람 울프</ko>
+  </Lang>
+  <Lang>
+    <Name>Boreal Wolf_1</Name>
+    <Default>Boreal Wolf's Milk Tooth</Default>
+    <ko>칼바람 울프의 젖니</ko>
+  </Lang>
+  <Lang>
+    <Name>Boreal Wolf_2</Name>
+    <Default>Boreal Wolf's Cracked Tooth</Default>
+    <ko>칼바람 울프의 이빨</ko>
+  </Lang>
+  <Lang>
+    <Name>Boreal Wolf_3</Name>
+    <Default>Boreal Wolf's Broken Fang</Default>
+    <ko>칼바람 울프의 부서진 이빨</ko>
+  </Lang>
+  <Lang>
+    <Name>Boreal Wolf_4</Name>
+    <Default>Boreal Wolf's Nostalgia</Default>
+    <ko>칼바람 울프의 그리운 고향</ko>
+  </Lang>
+  <Lang>
+    <Name>The Dandelion Gladiator</Name>
+    <Default>The Dandelion Gladiator</Default>
+    <ko>라이언 투사</ko>
+  </Lang>
+  <Lang>
+    <Name>The Dandelion Gladiator_1</Name>
+    <Default>Fetters of the Dandelion Gladiator</Default>
+    <ko>라이언 투사의 족쇄</ko>
+  </Lang>
+  <Lang>
+    <Name>The Dandelion Gladiator_2</Name>
+    <Default>Chains of the Dandelion Gladiator</Default>
+    <ko>라이언 투사의 쇠사슬</ko>
+  </Lang>
+  <Lang>
+    <Name>The Dandelion Gladiator_3</Name>
+    <Default>Shackles of the Dandelion Gladiator</Default>
+    <ko>라이언 투사의 수갑</ko>
+  </Lang>
+  <Lang>
+    <Name>The Dandelion Gladiator_4</Name>
+    <Default>Dream of the Dandelion Gladiator</Default>
+    <ko>라이언 투사의 이념</ko>
+  </Lang>
+  <Lang>
+    <Name>Guyun</Name>
+    <Default>Guyun</Default>
+    <ko>고운한림</ko>
+  </Lang>
+  <Lang>
+    <Name>Guyun_1</Name>
+    <Default>Luminous Sands from Guyun</Default>
+    <ko>고운한림의 매끄러운 모래</ko>
+  </Lang>
+  <Lang>
+    <Name>Guyun_2</Name>
+    <Default>Lustrous Stone from Guyun</Default>
+    <ko>고운한림의 휘암</ko>
+  </Lang>
+  <Lang>
+    <Name>Guyun_3</Name>
+    <Default>Relic from Guyun</Default>
+    <ko>고운한림의 해골</ko>
+  </Lang>
+  <Lang>
+    <Name>Guyun_4</Name>
+    <Default>Divine Body from Guyun</Default>
+    <ko>고운한림의 신체</ko>
+  </Lang>
+  <Lang>
+    <Name>Mist Veiled</Name>
+    <Default>Mist Veiled</Default>
+    <ko>안개구름 속</ko>
+  </Lang>
+  <Lang>
+    <Name>Mist Veiled_1</Name>
+    <Default>Mist Veiled Lead Elixir</Default>
+    <ko>안개구름 속의 흑연단</ko>
+  </Lang>
+  <Lang>
+    <Name>Mist Veiled_2</Name>
+    <Default>Mist Veiled Mercury Elixir</Default>
+    <ko>안개구름 속의 수은단</ko>
+  </Lang>
+  <Lang>
+    <Name>Mist Veiled_3</Name>
+    <Default>Mist Veiled Gold Elixir</Default>
+    <ko>안개구름 속의 금단</ko>
+  </Lang>
+  <Lang>
+    <Name>Mist Veiled_4</Name>
+    <Default>Mist Veiled Primo Elixir</Default>
+    <ko>안개구름 속의 전환</ko>
+  </Lang>
+  <Lang>
+    <Name>Aerosiderite</Name>
+    <Default>Aerosiderite</Default>
+    <ko>흑운철</ko>
+  </Lang>
+  <Lang>
+    <Name>Aerosiderite_1</Name>
+    <Default>Grain of Aerosiderite</Default>
+    <ko>흑운철 한 알</ko>
+  </Lang>
+  <Lang>
+    <Name>Aerosiderite_2</Name>
+    <Default>Piece of Aerosiderite</Default>
+    <ko>흑운철 조각</ko>
+  </Lang>
+  <Lang>
+    <Name>Aerosiderite_3</Name>
+    <Default>Bit of Aerosiderite</Default>
+    <ko>흑운철 일각</ko>
+  </Lang>
+  <Lang>
+    <Name>Aerosiderite_4</Name>
+    <Default>Chunk of Aerosiderite</Default>
+    <ko>흑운철 덩이</ko>
+  </Lang>
 </NewDataSet>

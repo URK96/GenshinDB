@@ -1,10 +1,11 @@
-﻿using System;
+﻿using GenshinDB_Core.Types;
+
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Globalization;
-using System.IO;
-using System.Reflection;
 using System.Linq;
+using System.Reflection;
 
 using DBEnv = GenshinDB_Core.DBEnvironment;
 
@@ -20,6 +21,7 @@ namespace GenshinDB_Core
 
         public List<Character> characters;
         public List<TalentItem> talentItems;
+        public List<WeaponAscensionItem> weaponAscensionItems;
         public List<Lang> langs;
 
         public DataTable langDT;
@@ -30,6 +32,7 @@ namespace GenshinDB_Core
 
             characters = new List<Character>();
             talentItems = new List<TalentItem>();
+            weaponAscensionItems = new List<WeaponAscensionItem>();
             langs = new List<Lang>();
 
             LoadDB();
@@ -37,18 +40,21 @@ namespace GenshinDB_Core
 
         private void LoadDB()
         {
-            var characterDT = new DataTable();
-            var talentItemDT = new DataTable();
-            var langDT = new DataTable();
+            using var characterDT = new DataTable();
+            using var talentItemDT = new DataTable();
+            using var weaponAscensionDT = new DataTable();
+            using var langDT = new DataTable();
 
             var assembly = Assembly.GetExecutingAssembly();
 
             using var characterStream = assembly.GetManifestResourceStream($"{EMBED_NAMESPACE}Character.xml");
             using var talentItemStream = assembly.GetManifestResourceStream($"{EMBED_NAMESPACE}Item_Talent.xml");
+            using var weaponAscensionStream = assembly.GetManifestResourceStream($"{EMBED_NAMESPACE}Item_Weapon_Ascension.xml");
             using var langStream = assembly.GetManifestResourceStream($"{EMBED_NAMESPACE}Lang.xml");
 
             characterDT.ReadXml(characterStream);
             talentItemDT.ReadXml(talentItemStream);
+            weaponAscensionDT.ReadXml(weaponAscensionStream);
             langDT.ReadXml(langStream);
 
             foreach (DataRow dr in characterDT.Rows)
@@ -60,9 +66,14 @@ namespace GenshinDB_Core
             {
                 talentItems.Add(new TalentItem(dr));
             }
+            foreach (DataRow dr in weaponAscensionDT.Rows)
+            {
+                weaponAscensionItems.Add(new WeaponAscensionItem(dr));
+            }
             foreach (Locations location in Enum.GetValues(typeof(Locations)))
             {
                 talentItems.Add(new TalentItem(location, new[] { DayOfWeek.Sunday }));
+                weaponAscensionItems.Add(new WeaponAscensionItem(location, new[] { DayOfWeek.Sunday }));
             }
 
             foreach (DataRow dr in langDT.Rows)
