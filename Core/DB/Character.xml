@@ -205,4 +205,10 @@
     <WeaponType>Polearm</WeaponType>
     <TalentItem>Diligence</TalentItem>
   </Character>
+  <Character>
+    <Name>Rosaria</Name>
+    <ElementType>Cryo</ElementType>
+    <WeaponType>Polearm</WeaponType>
+    <TalentItem>Ballad</TalentItem>
+  </Character>
 </NewDataSet>

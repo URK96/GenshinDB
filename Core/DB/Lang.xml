@@ -417,4 +417,9 @@
     <Default>Chunk of Aerosiderite</Default>
     <ko>흑운철 덩이</ko>
   </Lang>
+  <Lang>
+    <Name>Rosaria</Name>
+    <Default>Rosaria</Default>
+    <ko>로자리아</ko>
+  </Lang>
 </NewDataSet>
