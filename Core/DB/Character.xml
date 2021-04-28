@@ -179,7 +179,7 @@
     <Name>Xiao</Name>
     <ElementType>Anemo</ElementType>
     <WeaponType>Polearm</WeaponType>
-    <TalentItem>None</TalentItem>
+    <TalentItem>Prosperity</TalentItem>
   </Character>
   <Character>
     <Name>Xingqiu</Name>
@@ -210,5 +210,17 @@
     <ElementType>Cryo</ElementType>
     <WeaponType>Polearm</WeaponType>
     <TalentItem>Ballad</TalentItem>
+  </Character>
+  <Character>
+    <Name>Yanfei</Name>
+    <ElementType>Pyro</ElementType>
+    <WeaponType>Catalyst</WeaponType>
+    <TalentItem>Gold</TalentItem>
+  </Character>
+  <Character>
+    <Name>Eula</Name>
+    <ElementType>Cryo</ElementType>
+    <WeaponType>Claymore</WeaponType>
+    <TalentItem>Resistance</TalentItem>
   </Character>
 </NewDataSet>

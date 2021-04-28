@@ -422,4 +422,14 @@
     <Default>Rosaria</Default>
     <ko>로자리아</ko>
   </Lang>
+  <Lang>
+    <Name>Yanfei</Name>
+    <Default>Yanfei</Default>
+    <ko>연비</ko>
+  </Lang>
+  <Lang>
+    <Name>Eula</Name>
+    <Default>Eula</Default>
+    <ko>유라</ko>
+  </Lang>
 </NewDataSet>
