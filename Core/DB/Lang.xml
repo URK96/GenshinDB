@@ -432,4 +432,9 @@
     <Default>Eula</Default>
     <ko>유라</ko>
   </Lang>
+  <Lang>
+    <Name>Kazuha</Name>
+    <Default>Kaedehara Kazuha</Default>
+    <ko>카에데하라 카즈하</ko>
+  </Lang>
 </NewDataSet>

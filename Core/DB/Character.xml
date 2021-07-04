@@ -223,4 +223,10 @@
     <WeaponType>Claymore</WeaponType>
     <TalentItem>Resistance</TalentItem>
   </Character>
+  <Character>
+    <Name>Kazuha</Name>
+    <ElementType>Anemo</ElementType>
+    <WeaponType>Sword</WeaponType>
+    <TalentItem>Diligence</TalentItem>
+  </Character>
 </NewDataSet>
