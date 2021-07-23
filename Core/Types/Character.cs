@@ -6,11 +6,10 @@ namespace GenshinDB_Core.Types
 {
     public class Character
     {
-        public enum ElementTypes { Pyro, Hydro, Dendro, Electro, Anemo, Cryo, Geo }
-        public enum WeaponTypes { Bow, Catalyst, Claymore, Polearm, Sword }
+        public enum WeaponTypes { Bow = 0, Catalyst, Claymore, Polearm, Sword }
 
         public string Name { get; private set; }
-        public ElementTypes ElementType { get; private set; }
+        public GenshinDB.ElementTypes ElementType { get; private set; }
         public List<string> TalentItem { get; private set; }
         public (WeaponTypes Type, string Name) WeaponType { get; private set; }
 
@@ -20,7 +19,7 @@ namespace GenshinDB_Core.Types
             TalentItem = new List<string>((dr["TalentItem"] as string).Split(','));
 
             string weaponName = dr["WeaponType"] as string;
-            WeaponType = ((WeaponTypes)Array.FindIndex(Enum.GetNames(typeof(ElementTypes)), x => x.Equals(weaponName)), weaponName);
+            WeaponType = ((WeaponTypes)Array.FindIndex(Enum.GetNames(typeof(GenshinDB.ElementTypes)), x => x.Equals(weaponName)), weaponName);
 
             SetElementType(dr["ElementType"] as string);
         }
@@ -29,14 +28,14 @@ namespace GenshinDB_Core.Types
         {
             ElementType = data switch
             {
-                "Pyro" => ElementTypes.Pyro,
-                "Hydro" => ElementTypes.Hydro,
-                "Dendro" => ElementTypes.Dendro,
-                "Electro" => ElementTypes.Electro,
-                "Anemo" => ElementTypes.Anemo,
-                "Cryo" => ElementTypes.Cryo,
-                "Geo" => ElementTypes.Geo,
-                _ => ElementTypes.Pyro
+                "Pyro" => GenshinDB.ElementTypes.Pyro,
+                "Hydro" => GenshinDB.ElementTypes.Hydro,
+                "Dendro" => GenshinDB.ElementTypes.Dendro,
+                "Electro" => GenshinDB.ElementTypes.Electro,
+                "Anemo" => GenshinDB.ElementTypes.Anemo,
+                "Cryo" => GenshinDB.ElementTypes.Cryo,
+                "Geo" => GenshinDB.ElementTypes.Geo,
+                _ => GenshinDB.ElementTypes.Pyro
             };
         }
     }

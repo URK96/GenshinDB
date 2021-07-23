@@ -13,8 +13,8 @@ namespace GenshinDB_Core
 {
     public class GenshinDB
     {
-        public enum Locations { Mondstadt, Liyue }
-        public enum ElementTypes { Pyro, Hydro, Dendro, Electro, Anemo, Cryo, Geo }
+        public enum Locations { Mondstadt = 0, Liyue, Inazuma }
+        public enum ElementTypes { Pyro = 0, Hydro, Dendro, Electro, Anemo, Cryo, Geo }
 
 
         const string EMBED_NAMESPACE = "GenshinDB_Core.DB.";
@@ -95,6 +95,7 @@ namespace GenshinDB_Core
             {
                 Locations.Mondstadt => "Mondstadt",
                 Locations.Liyue => "Liyue",
+                Locations.Inazuma => "Inazuma",
                 _ => string.Empty
             };
         }
@@ -108,7 +109,8 @@ namespace GenshinDB_Core
             return new List<string>
             {
                 (from lang in langs where lang.Name.Equals("Mondstadt") select lang).First().Dic[langIndex],
-                (from lang in langs where lang.Name.Equals("Liyue") select lang).First().Dic[langIndex]
+                (from lang in langs where lang.Name.Equals("Liyue") select lang).First().Dic[langIndex],
+                (from lang in langs where lang.Name.Equals("Inazuma") select lang).First().Dic[langIndex]
             };
         }
 

@@ -33,6 +33,7 @@ namespace GenshinDB_Core.Types
             {
                 "Mondstadt" => GenshinDB.Locations.Mondstadt,
                 "Liyue" => GenshinDB.Locations.Liyue,
+                "Inazuma" => GenshinDB.Locations.Inazuma,
                 _ => GenshinDB.Locations.Mondstadt
             };
         }
