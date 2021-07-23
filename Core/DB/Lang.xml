@@ -28,6 +28,11 @@
     <ko>리월</ko>
   </Lang>
   <Lang>
+    <Name>Inazuma</Name>
+    <Default>Inazuma</Default>
+    <ko>이나즈마</ko>
+  </Lang>
+  <Lang>
     <Name>Albedo</Name>
     <Default>Albedo</Default>
     <ko>알베도</ko>
