@@ -47,4 +47,19 @@
     <Location>Liyue</Location>
     <DayOfWeek>3,6</DayOfWeek>
   </Item_Talent>
+  <Item_Talent>
+    <Name>Transience</Name>
+    <Location>Inazuma</Location>
+    <DayOfWeek>1,4</DayOfWeek>
+  </Item_Talent>
+  <Item_Talent>
+    <Name>Elegance</Name>
+    <Location>Inazuma</Location>
+    <DayOfWeek>2,5</DayOfWeek>
+  </Item_Talent>
+  <Item_Talent>
+    <Name>Light</Name>
+    <Location>Inazuma</Location>
+    <DayOfWeek>3,6</DayOfWeek>
+  </Item_Talent>
 </NewDataSet>

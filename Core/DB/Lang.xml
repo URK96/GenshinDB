@@ -437,4 +437,99 @@
     <Default>Kaedehara Kazuha</Default>
     <ko>카에데하라 카즈하</ko>
   </Lang>
+  <Lang>
+    <Name>Ayaka</Name>
+    <Default>Kamisato Ayaka</Default>
+    <ko>카미사토 아야카</ko>
+  </Lang>
+  <Lang>
+    <Name>Transience</Name>
+    <Default>Transience</Default>
+    <ko>부세</ko>
+  </Lang>
+  <Lang>
+    <Name>Elegance</Name>
+    <Default>Elegance</Default>
+    <ko>풍아</ko>
+  </Lang>
+  <Lang>
+    <Name>Light</Name>
+    <Default>Light</Default>
+    <ko>천광</ko>
+  </Lang>
+  <Lang>
+    <Name>Branch of a Distant Sea</Name>
+    <Default>Branch of a Distant Sea</Default>
+    <ko>먼바다의 가지</ko>
+  </Lang>
+  <Lang>
+    <Name>Branch of a Distant Sea_1</Name>
+    <Default>Coral Branch of a Distant Sea</Default>
+    <ko>먼바다의 산호 가지</ko>
+  </Lang>
+  <Lang>
+    <Name>Branch of a Distant Sea_2</Name>
+    <Default>Jeweled Branch of a Distant Sea</Default>
+    <ko>먼바다의 옥빛 가지</ko>
+  </Lang>
+  <Lang>
+    <Name>Branch of a Distant Sea_3</Name>
+    <Default>Jade Branch of a Distant Sea</Default>
+    <ko>먼바다의 마노 가지</ko>
+  </Lang>
+  <Lang>
+    <Name>Branch of a Distant Sea_4</Name>
+    <Default>Golden Branch of a Distant Sea</Default>
+    <ko>먼바다의 금빛 가지</ko>
+  </Lang>
+  <Lang>
+    <Name>Narukami</Name>
+    <Default>Narukami</Default>
+    <ko>나루카미</ko>
+  </Lang>
+  <Lang>
+    <Name>Narukami_1</Name>
+    <Default>Narukami's Wisdom</Default>
+    <ko>나루카미 어령의 은혜</ko>
+  </Lang>
+  <Lang>
+    <Name>Narukami_2</Name>
+    <Default>Narukami's Joy</Default>
+    <ko>나루카미 어령의 환희</ko>
+  </Lang>
+  <Lang>
+    <Name>Narukami_3</Name>
+    <Default>Narukami's Affection</Default>
+    <ko>나루카미 어령의 친애</ko>
+  </Lang>
+  <Lang>
+    <Name>Narukami_4</Name>
+    <Default>Narukami's Valor</Default>
+    <ko>나루카미 어령의 용맹</ko>
+  </Lang>
+  <Lang>
+    <Name>Mask</Name>
+    <Default>Mask</Default>
+    <ko>금석극화</ko>
+  </Lang>
+  <Lang>
+    <Name>Mask_1</Name>
+    <Default>Mask of the Wicked Lieutenant</Default>
+    <ko>금석극화의 가면</ko>
+  </Lang>
+  <Lang>
+    <Name>Mask_2</Name>
+    <Default>Mask of the Tiger's Bite</Default>
+    <ko>금석극화의 호교</ko>
+  </Lang>
+  <Lang>
+    <Name>Mask_3</Name>
+    <Default>Mask of the One-Horned</Default>
+    <ko>금석극화의 일각</ko>
+  </Lang>
+  <Lang>
+    <Name>Mask_4</Name>
+    <Default>Mask of the Kijin</Default>
+    <ko>금석극화의 귀인</ko>
+  </Lang>
 </NewDataSet>

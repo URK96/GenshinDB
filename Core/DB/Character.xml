@@ -229,4 +229,10 @@
     <WeaponType>Sword</WeaponType>
     <TalentItem>Diligence</TalentItem>
   </Character>
+  <Character>
+    <Name>Ayaka</Name>
+    <ElementType>Cryo</ElementType>
+    <WeaponType>Sword</WeaponType>
+    <TalentItem>Elegance</TalentItem>
+  </Character>
 </NewDataSet>
