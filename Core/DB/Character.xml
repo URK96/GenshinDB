@@ -164,6 +164,12 @@
     <TalentItem>Diligence,Gold,Prosperity</TalentItem>
   </Character>
   <Character>
+    <Name>Traveler</Name>
+    <ElementType>Electro</ElementType>
+    <WeaponType>Sword</WeaponType>
+    <TalentItem>Transience,Elegance,Light</TalentItem>
+  </Character>
+  <Character>
     <Name>Venti</Name>
     <ElementType>Anemo</ElementType>
     <WeaponType>Bow</WeaponType>
