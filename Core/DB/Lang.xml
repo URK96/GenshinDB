@@ -537,4 +537,14 @@
     <Default>Mask of the Kijin</Default>
     <ko>금석극화의 귀인</ko>
   </Lang>
+  <Lang>
+    <Name>Yoimiya</Name>
+    <Default>Yoimiya</Default>
+    <ko>요이미야</ko>
+  </Lang>
+  <Lang>
+    <Name>Sayu</Name>
+    <Default>Sayu</Default>
+    <ko>사유</ko>
+  </Lang>
 </NewDataSet>

@@ -241,4 +241,16 @@
     <WeaponType>Sword</WeaponType>
     <TalentItem>Elegance</TalentItem>
   </Character>
+  <Character>
+    <Name>Yoimiya</Name>
+    <ElementType>Pyro</ElementType>
+    <WeaponType>Bow</WeaponType>
+    <TalentItem>Transience</TalentItem>
+  </Character>
+  <Character>
+    <Name>Sayu</Name>
+    <ElementType>Anemo</ElementType>
+    <WeaponType>Claymore</WeaponType>
+    <TalentItem>Light</TalentItem>
+  </Character>
 </NewDataSet>
