@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Globalization;
+using System.IO;
 using System.Linq;
 using System.Reflection;
 
@@ -40,17 +41,17 @@ namespace GenshinDB_Core
 
         private void LoadDB()
         {
-            using var characterDT = new DataTable();
-            using var talentItemDT = new DataTable();
-            using var weaponAscensionDT = new DataTable();
-            using var langDT = new DataTable();
+            using DataTable characterDT = new DataTable();
+            using DataTable talentItemDT = new DataTable();
+            using DataTable weaponAscensionDT = new DataTable();
+            using DataTable langDT = new DataTable();
 
             var assembly = Assembly.GetExecutingAssembly();
 
-            using var characterStream = assembly.GetManifestResourceStream($"{EMBED_NAMESPACE}Character.xml");
-            using var talentItemStream = assembly.GetManifestResourceStream($"{EMBED_NAMESPACE}Item_Talent.xml");
-            using var weaponAscensionStream = assembly.GetManifestResourceStream($"{EMBED_NAMESPACE}Item_Weapon_Ascension.xml");
-            using var langStream = assembly.GetManifestResourceStream($"{EMBED_NAMESPACE}Lang.xml");
+            using Stream characterStream = assembly.GetManifestResourceStream($"{EMBED_NAMESPACE}Character.xml");
+            using Stream talentItemStream = assembly.GetManifestResourceStream($"{EMBED_NAMESPACE}Item_Talent.xml");
+            using Stream weaponAscensionStream = assembly.GetManifestResourceStream($"{EMBED_NAMESPACE}Item_Weapon_Ascension.xml");
+            using Stream langStream = assembly.GetManifestResourceStream($"{EMBED_NAMESPACE}Lang.xml");
 
             characterDT.ReadXml(characterStream);
             talentItemDT.ReadXml(talentItemStream);
@@ -84,7 +85,7 @@ namespace GenshinDB_Core
 
         public static string[] GetResources()
         {
-            var assembly = Assembly.GetExecutingAssembly();
+            Assembly assembly = Assembly.GetExecutingAssembly();
 
             return assembly.GetManifestResourceNames();
         }
@@ -104,7 +105,7 @@ namespace GenshinDB_Core
         {
             //const string CINDEX = "Name";
 
-            var langIndex = GetLangIndex();
+            string langIndex = GetLangIndex();
 
             return new List<string>
             {
