@@ -253,4 +253,28 @@
     <WeaponType>Claymore</WeaponType>
     <TalentItem>Light</TalentItem>
   </Character>
+  <Character>
+    <Name>Aloy</Name>
+    <ElementType>Cryo</ElementType>
+    <WeaponType>Bow</WeaponType>
+    <TalentItem>Freedom</TalentItem>
+  </Character>
+  <Character>
+    <Name>Kujou Sara</Name>
+    <ElementType>Electro</ElementType>
+    <WeaponType>Bow</WeaponType>
+    <TalentItem>Elegance</TalentItem>
+  </Character>
+  <Character>
+    <Name>Raiden Shogun</Name>
+    <ElementType>Electro</ElementType>
+    <WeaponType>Polearm</WeaponType>
+    <TalentItem>Light</TalentItem>
+  </Character>
+  <Character>
+    <Name>Sangonomiya Kokomi</Name>
+    <ElementType>Hydro</ElementType>
+    <WeaponType>Catalyst</WeaponType>
+    <TalentItem>Transience</TalentItem>
+  </Character>
 </NewDataSet>

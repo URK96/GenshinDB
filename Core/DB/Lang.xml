@@ -547,4 +547,24 @@
     <Default>Sayu</Default>
     <ko>사유</ko>
   </Lang>
+  <Lang>
+    <Name>Aloy</Name>
+    <Default>Aloy</Default>
+    <ko>에일로이</ko>
+  </Lang>
+  <Lang>
+    <Name>Kujou Sara</Name>
+    <Default>Kujou Sara</Default>
+    <ko>쿠죠 사라</ko>
+  </Lang>
+  <Lang>
+    <Name>Raiden Shogun</Name>
+    <Default>Raiden Shogun</Default>
+    <ko>라이덴 쇼군</ko>
+  </Lang>
+  <Lang>
+    <Name>Sangonomiya Kokomi</Name>
+    <Default>Sangonomiya Kokomi</Default>
+    <ko>산고노미야 코코미</ko>
+  </Lang>
 </NewDataSet>
