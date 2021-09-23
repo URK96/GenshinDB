@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Text;
-using System.Linq;
+﻿using System.Data;
 using System.Globalization;
+using System.Linq;
 
 namespace GenshinDB_Core
 {
