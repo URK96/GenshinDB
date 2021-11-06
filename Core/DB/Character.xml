@@ -277,4 +277,10 @@
     <WeaponType>Catalyst</WeaponType>
     <TalentItem>Transience</TalentItem>
   </Character>
+  <Character>
+    <Name>Thoma</Name>
+    <ElementType>Pyro</ElementType>
+    <WeaponType>Polearm</WeaponType>
+    <TalentItem>Transience</TalentItem>
+  </Character>
 </NewDataSet>
