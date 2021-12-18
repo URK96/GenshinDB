@@ -572,4 +572,14 @@
     <Default>Thoma</Default>
     <ko>토마</ko>
   </Lang>
+  <Lang>
+    <Name>Arataki Itto</Name>
+    <Default>Arataki Itto</Default>
+    <ko>아라타키 이토</ko>
+  </Lang>
+  <Lang>
+    <Name>Gorou</Name>
+    <Default>Gorou</Default>
+    <ko>고로</ko>
+  </Lang>
 </NewDataSet>

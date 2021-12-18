@@ -283,4 +283,16 @@
     <WeaponType>Polearm</WeaponType>
     <TalentItem>Transience</TalentItem>
   </Character>
+  <Character>
+    <Name>Arataki Itto</Name>
+    <ElementType>Geo</ElementType>
+    <WeaponType>Claymore</WeaponType>
+    <TalentItem>Elegance</TalentItem>
+  </Character>
+  <Character>
+    <Name>Gorou</Name>
+    <ElementType>Geo</ElementType>
+    <WeaponType>Bow</WeaponType>
+    <TalentItem>Light</TalentItem>
+  </Character>
 </NewDataSet>
