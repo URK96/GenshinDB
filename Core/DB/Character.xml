@@ -295,4 +295,16 @@
     <WeaponType>Bow</WeaponType>
     <TalentItem>Light</TalentItem>
   </Character>
+  <Character>
+    <Name>Shenhe</Name>
+    <ElementType>Cryo</ElementType>
+    <WeaponType>Polearm</WeaponType>
+    <TalentItem>Prosperity</TalentItem>
+  </Character>
+  <Character>
+    <Name>Yun Jin</Name>
+    <ElementType>Geo</ElementType>
+    <WeaponType>Polearm</WeaponType>
+    <TalentItem>Diligence</TalentItem>
+  </Character>
 </NewDataSet>

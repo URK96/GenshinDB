@@ -582,4 +582,14 @@
     <Default>Gorou</Default>
     <ko>고로</ko>
   </Lang>
+  <Lang>
+    <Name>Shenhe</Name>
+    <Default>Shenhe</Default>
+    <ko>신학</ko>
+  </Lang>
+  <Lang>
+    <Name>Yun Jin</Name>
+    <Default>Yun Jin</Default>
+    <ko>운근</ko>
+  </Lang>
 </NewDataSet>
