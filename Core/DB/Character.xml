@@ -307,4 +307,10 @@
     <WeaponType>Polearm</WeaponType>
     <TalentItem>Diligence</TalentItem>
   </Character>
+  <Character>
+    <Name>Yae Miko</Name>
+    <ElementType>Electro</ElementType>
+    <WeaponType>Catalyst</WeaponType>
+    <TalentItem>Light</TalentItem>
+  </Character>
 </NewDataSet>
