@@ -313,4 +313,10 @@
     <WeaponType>Catalyst</WeaponType>
     <TalentItem>Light</TalentItem>
   </Character>
+  <Character>
+    <Name>Kamisato Ayato</Name>
+    <ElementType>Hydro</ElementType>
+    <WeaponType>Sword</WeaponType>
+    <TalentItem>Elegance</TalentItem>
+  </Character>
 </NewDataSet>
