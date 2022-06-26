@@ -602,4 +602,14 @@
     <Default>Kamisato Ayato</Default>
     <ko>카미사토 아야토</ko>
   </Lang>
+  <Lang>
+    <Name>Yelan</Name>
+    <Default>Yelan</Default>
+    <ko>야란</ko>
+  </Lang>
+  <Lang>
+    <Name>Kuki Shinobu</Name>
+    <Default>Kuki Shinobu</Default>
+    <ko>쿠키 시노부</ko>
+  </Lang>
 </NewDataSet>

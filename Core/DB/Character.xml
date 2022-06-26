@@ -319,4 +319,16 @@
     <WeaponType>Sword</WeaponType>
     <TalentItem>Elegance</TalentItem>
   </Character>
+  <Character>
+    <Name>Yelan</Name>
+    <ElementType>Hydro</ElementType>
+    <WeaponType>Bow</WeaponType>
+    <TalentItem>Prosperity</TalentItem>
+  </Character>
+  <Character>
+    <Name>Kuki Shinobu</Name>
+    <ElementType>Electro</ElementType>
+    <WeaponType>Sword</WeaponType>
+    <TalentItem>Elegance</TalentItem>
+  </Character>
 </NewDataSet>
