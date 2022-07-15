@@ -331,4 +331,10 @@
     <WeaponType>Sword</WeaponType>
     <TalentItem>Elegance</TalentItem>
   </Character>
+  <Character>
+    <Name>Shikanoin Heizou</Name>
+    <ElementType>Anemo</ElementType>
+    <WeaponType>Catalyst</WeaponType>
+    <TalentItem>Transience</TalentItem>
+  </Character>
 </NewDataSet>
