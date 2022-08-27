@@ -14,7 +14,7 @@ namespace GenshinDB_Core
 {
     public class GenshinDB
     {
-        public enum Locations { Mondstadt = 0, Liyue, Inazuma }
+        public enum Locations { Mondstadt = 0, Liyue, Inazuma, Sumeru }
         public enum ElementTypes { Pyro = 0, Hydro, Dendro, Electro, Anemo, Cryo, Geo }
 
 
@@ -90,40 +90,46 @@ namespace GenshinDB_Core
             return assembly.GetManifestResourceNames();
         }
 
-        public string GetLocationName(Locations location)
-        {
-            return location switch
+        public string GetLocationName(Locations location) =>
+            location switch
             {
                 Locations.Mondstadt => "Mondstadt",
                 Locations.Liyue => "Liyue",
                 Locations.Inazuma => "Inazuma",
+                Locations.Sumeru => "Sumeru",
                 _ => string.Empty
             };
-        }
 
         public List<string> GetAllLocations()
         {
-            //const string CINDEX = "Name";
-
             string langIndex = GetLangIndex();
+            List<string> locationNames = new();
 
-            return new List<string>
+            foreach (Locations location in Enum.GetValues(typeof(Locations)))
             {
-                (from lang in langs where lang.Name.Equals("Mondstadt") select lang).First().Dic[langIndex],
-                (from lang in langs where lang.Name.Equals("Liyue") select lang).First().Dic[langIndex],
-                (from lang in langs where lang.Name.Equals("Inazuma") select lang).First().Dic[langIndex]
-            };
+                locationNames.Add((from lang in langs
+                                   where lang.Name == GetLocationName(location)
+                                   select lang).First().Dic[langIndex]);
+            }
+
+            return locationNames;
+
+            //return new List<string>
+            //{
+            //    (from lang in langs where lang.Name.Equals("Mondstadt") select lang).First().Dic[langIndex],
+            //    (from lang in langs where lang.Name.Equals("Liyue") select lang).First().Dic[langIndex],
+            //    (from lang in langs where lang.Name.Equals("Inazuma") select lang).First().Dic[langIndex]
+            //};
         }
 
-        public string FindLangDic(string name) => langs.Find(x => x.Name.Equals(name)).Dic[GetLangIndex()];
+        public string FindLangDic(string name) => 
+            langs.Find(x => x.Name.Equals(name)).Dic[GetLangIndex()];
 
-        private string GetLangIndex()
-        {
-            return DBEnv.dbCultureInfo.Name switch
+        private string GetLangIndex() => 
+            DBEnv.dbCultureInfo.Name switch
             {
                 "ko-KR" => "ko",
                 _ => "Default"
             };
-        }
     }
 }

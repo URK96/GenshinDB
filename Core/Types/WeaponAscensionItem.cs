@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Text;
 
 namespace GenshinDB_Core.Types
 {
@@ -34,6 +33,7 @@ namespace GenshinDB_Core.Types
                 "Mondstadt" => GenshinDB.Locations.Mondstadt,
                 "Liyue" => GenshinDB.Locations.Liyue,
                 "Inazuma" => GenshinDB.Locations.Inazuma,
+                "Sumeru" => GenshinDB.Locations.Sumeru,
                 _ => GenshinDB.Locations.Mondstadt
             };
         }
