@@ -33,6 +33,11 @@
     <ko>이나즈마</ko>
   </Lang>
   <Lang>
+    <Name>Sumeru</Name>
+    <Default>Sumeru</Default>
+    <ko>수메르</ko>
+  </Lang>
+  <Lang>
     <Name>Albedo</Name>
     <Default>Albedo</Default>
     <ko>알베도</ko>
