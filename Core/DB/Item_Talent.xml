@@ -62,4 +62,19 @@
     <Location>Inazuma</Location>
     <DayOfWeek>3,6</DayOfWeek>
   </Item_Talent>
+  <Item_Talent>
+    <Name>Admonition</Name>
+    <Location>Sumeru</Location>
+    <DayOfWeek>1,4</DayOfWeek>
+  </Item_Talent>
+  <Item_Talent>
+    <Name>Ingenuity</Name>
+    <Location>Sumeru</Location>
+    <DayOfWeek>2,5</DayOfWeek>
+  </Item_Talent>
+  <Item_Talent>
+    <Name>Praxis</Name>
+    <Location>Sumeru</Location>
+    <DayOfWeek>3,6</DayOfWeek>
+  </Item_Talent>
 </NewDataSet>

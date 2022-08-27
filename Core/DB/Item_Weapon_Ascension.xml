@@ -62,4 +62,19 @@
     <Location>Inazuma</Location>
     <DayOfWeek>3,6</DayOfWeek>
   </Item_Weapon_Ascension>
+  <Item_Weapon_Ascension>
+    <Name>Talisman of the Forest Dew</Name>
+    <Location>Sumeru</Location>
+    <DayOfWeek>1,4</DayOfWeek>
+  </Item_Weapon_Ascension>
+  <Item_Weapon_Ascension>
+    <Name>Oasis Garden</Name>
+    <Location>Sumeru</Location>
+    <DayOfWeek>2,5</DayOfWeek>
+  </Item_Weapon_Ascension>
+  <Item_Weapon_Ascension>
+    <Name>Scorching Might</Name>
+    <Location>Sumeru</Location>
+    <DayOfWeek>3,6</DayOfWeek>
+  </Item_Weapon_Ascension>
 </NewDataSet>

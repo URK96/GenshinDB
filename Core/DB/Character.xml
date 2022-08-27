@@ -337,4 +337,16 @@
     <WeaponType>Catalyst</WeaponType>
     <TalentItem>Transience</TalentItem>
   </Character>
+  <Character>
+    <Name>Tighnari</Name>
+    <ElementType>Dendro</ElementType>
+    <WeaponType>Bow</WeaponType>
+    <TalentItem>Admonition</TalentItem>
+  </Character>
+  <Character>
+    <Name>Collei</Name>
+    <ElementType>Dendro</ElementType>
+    <WeaponType>Bow</WeaponType>
+    <TalentItem>Praxis</TalentItem>
+  </Character>
 </NewDataSet>
