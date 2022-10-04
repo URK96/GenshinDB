@@ -722,4 +722,19 @@
     <Default>Collei</Default>
     <ko>콜레이</ko>
   </Lang>
+  <Lang>
+    <Name>Dori</Name>
+    <Default>Dori</Default>
+    <ko>도리</ko>
+  </Lang>
+  <Lang>
+    <Name>Cyno</Name>
+    <Default>Cyno</Default>
+    <ko>사이노</ko>
+  </Lang>
+  <Lang>
+    <Name>Candace</Name>
+    <Default>Candace</Default>
+    <ko>캔디스</ko>
+  </Lang>
 </NewDataSet>

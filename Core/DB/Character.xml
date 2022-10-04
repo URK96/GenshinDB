@@ -349,4 +349,22 @@
     <WeaponType>Bow</WeaponType>
     <TalentItem>Praxis</TalentItem>
   </Character>
+  <Character>
+    <Name>Dori</Name>
+    <ElementType>Electro</ElementType>
+    <WeaponType>Claymore</WeaponType>
+    <TalentItem>Ingenuity</TalentItem>
+  </Character>
+  <Character>
+    <Name>Cyno</Name>
+    <ElementType>Electro</ElementType>
+    <WeaponType>Polearm</WeaponType>
+    <TalentItem>Admonition</TalentItem>
+  </Character>
+  <Character>
+    <Name>Candace</Name>
+    <ElementType>Electro</ElementType>
+    <WeaponType>Polearm</WeaponType>
+    <TalentItem>Admonition</TalentItem>
+  </Character>
 </NewDataSet>
