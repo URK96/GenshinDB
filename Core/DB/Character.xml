@@ -367,4 +367,10 @@
     <WeaponType>Polearm</WeaponType>
     <TalentItem>Admonition</TalentItem>
   </Character>
+  <Character>
+    <Name>Nilou</Name>
+    <ElementType>Hydro</ElementType>
+    <WeaponType>Sword</WeaponType>
+    <TalentItem>Praxis</TalentItem>
+  </Character>
 </NewDataSet>
