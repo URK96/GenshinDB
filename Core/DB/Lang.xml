@@ -742,4 +742,9 @@
     <Default>Nilou</Default>
     <ko>닐루</ko>
   </Lang>
+  <Lang>
+    <Name>Nahida</Name>
+    <Default>Nahida</Default>
+    <ko>나히다</ko>
+  </Lang>
 </NewDataSet>

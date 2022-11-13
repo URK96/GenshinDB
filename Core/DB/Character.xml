@@ -373,4 +373,10 @@
     <WeaponType>Sword</WeaponType>
     <TalentItem>Praxis</TalentItem>
   </Character>
+  <Character>
+    <Name>Nahida</Name>
+    <ElementType>Dendro</ElementType>
+    <WeaponType>Catalyst</WeaponType>
+    <TalentItem>Ingenuity</TalentItem>
+  </Character>
 </NewDataSet>
