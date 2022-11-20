@@ -747,4 +747,9 @@
     <Default>Nahida</Default>
     <ko>나히다</ko>
   </Lang>
+  <Lang>
+    <Name>Layla</Name>
+    <Default>Layla</Default>
+    <ko>레일라</ko>
+  </Lang>
 </NewDataSet>

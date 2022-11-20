@@ -379,4 +379,10 @@
     <WeaponType>Catalyst</WeaponType>
     <TalentItem>Ingenuity</TalentItem>
   </Character>
+  <Character>
+    <Name>Layla</Name>
+    <ElementType>Cryo</ElementType>
+    <WeaponType>Sword</WeaponType>
+    <TalentItem>Ingenuity</TalentItem>
+  </Character>
 </NewDataSet>
