@@ -122,8 +122,22 @@ namespace GenshinDB_Core
             //};
         }
 
-        public string FindLangDic(string name) => 
-            langs.Find(x => x.Name.Equals(name)).Dic[GetLangIndex()];
+        public string FindLangDic(string name)
+        {
+            string result = string.Empty;
+            Dictionary<string, string> langDic = langs.Find(x => x.Name.Equals(name))?.Dic;
+
+            if (langDic is not null)
+            {
+                result = langDic[GetLangIndex()];
+            }
+            else
+            {
+                result = name;
+            }
+
+            return result;
+        }
 
         private string GetLangIndex() => 
             DBEnv.dbCultureInfo.Name switch

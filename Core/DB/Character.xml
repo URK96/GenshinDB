@@ -170,6 +170,12 @@
     <TalentItem>Transience,Elegance,Light</TalentItem>
   </Character>
   <Character>
+    <Name>Traveler</Name>
+    <ElementType>Dendro</ElementType>
+    <WeaponType>Sword</WeaponType>
+    <TalentItem>Admonition,Praxis,Ingenuity</TalentItem>
+  </Character>
+  <Character>
     <Name>Venti</Name>
     <ElementType>Anemo</ElementType>
     <WeaponType>Bow</WeaponType>
@@ -384,5 +390,17 @@
     <ElementType>Cryo</ElementType>
     <WeaponType>Sword</WeaponType>
     <TalentItem>Ingenuity</TalentItem>
+  </Character>
+  <Character>
+    <Name>Faruzan</Name>
+    <ElementType>Anemo</ElementType>
+    <WeaponType>Bow</WeaponType>
+    <TalentItem>Admonition</TalentItem>
+  </Character>
+  <Character>
+    <Name>Wanderer</Name>
+    <ElementType>Anemo</ElementType>
+    <WeaponType>Catalyst</WeaponType>
+    <TalentItem>Praxis</TalentItem>
   </Character>
 </NewDataSet>

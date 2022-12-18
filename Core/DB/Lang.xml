@@ -752,4 +752,14 @@
     <Default>Layla</Default>
     <ko>레일라</ko>
   </Lang>
+  <Lang>
+    <Name>Faruzan</Name>
+    <Default>Faruzan</Default>
+    <ko>파루잔</ko>
+  </Lang>
+  <Lang>
+    <Name>Wanderer</Name>
+    <Default>Wanderer</Default>
+    <ko>방랑자</ko>
+  </Lang>
 </NewDataSet>
