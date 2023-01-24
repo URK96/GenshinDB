@@ -403,4 +403,16 @@
     <WeaponType>Catalyst</WeaponType>
     <TalentItem>Praxis</TalentItem>
   </Character>
+  <Character>
+    <Name>Alhaitham</Name>
+    <ElementType>Anemo</ElementType>
+    <WeaponType>Sword</WeaponType>
+    <TalentItem>Ingenuity</TalentItem>
+  </Character>
+  <Character>
+    <Name>Yaoyao</Name>
+    <ElementType>Anemo</ElementType>
+    <WeaponType>Polearm</WeaponType>
+    <TalentItem>Diligence</TalentItem>
+  </Character>
 </NewDataSet>

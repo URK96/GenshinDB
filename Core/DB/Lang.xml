@@ -762,4 +762,14 @@
     <Default>Wanderer</Default>
     <ko>방랑자</ko>
   </Lang>
+  <Lang>
+    <Name>Alhaitham</Name>
+    <Default>Alhaitham</Default>
+    <ko>알하이탐</ko>
+  </Lang>
+  <Lang>
+    <Name>Yaoyao</Name>
+    <Default>Yaoyao</Default>
+    <ko>요요</ko>
+  </Lang>
 </NewDataSet>
