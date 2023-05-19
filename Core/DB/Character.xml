@@ -415,4 +415,28 @@
     <WeaponType>Polearm</WeaponType>
     <TalentItem>Diligence</TalentItem>
   </Character>
+  <Character>
+    <Name>Dehya</Name>
+    <ElementType>Pyro</ElementType>
+    <WeaponType>Claymore</WeaponType>
+    <TalentItem>Praxis</TalentItem>
+  </Character>
+  <Character>
+    <Name>Mika</Name>
+    <ElementType>Cryo</ElementType>
+    <WeaponType>Polearm</WeaponType>
+    <TalentItem>Ballad</TalentItem>
+  </Character>
+  <Character>
+    <Name>Baizhu</Name>
+    <ElementType>Anemo</ElementType>
+    <WeaponType>Catalyst</WeaponType>
+    <TalentItem>Gold</TalentItem>
+  </Character>
+  <Character>
+    <Name>Kaveh</Name>
+    <ElementType>Anemo</ElementType>
+    <WeaponType>Claymore</WeaponType>
+    <TalentItem>Ingenuity</TalentItem>
+  </Character>
 </NewDataSet>

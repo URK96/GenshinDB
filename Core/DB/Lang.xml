@@ -772,4 +772,24 @@
     <Default>Yaoyao</Default>
     <ko>요요</ko>
   </Lang>
+  <Lang>
+    <Name>Dehya</Name>
+    <Default>Dehya</Default>
+    <ko>데히야</ko>
+  </Lang>
+  <Lang>
+    <Name>Mika</Name>
+    <Default>Mika</Default>
+    <ko>미카</ko>
+  </Lang>
+  <Lang>
+    <Name>Baizhu</Name>
+    <Default>Baizhu</Default>
+    <ko>백출</ko>
+  </Lang>
+  <Lang>
+    <Name>Kaveh</Name>
+    <Default>Kaveh</Default>
+    <ko>카베</ko>
+  </Lang>
 </NewDataSet>
