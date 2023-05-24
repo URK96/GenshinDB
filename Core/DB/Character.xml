@@ -405,13 +405,13 @@
   </Character>
   <Character>
     <Name>Alhaitham</Name>
-    <ElementType>Anemo</ElementType>
+    <ElementType>Dendro</ElementType>
     <WeaponType>Sword</WeaponType>
     <TalentItem>Ingenuity</TalentItem>
   </Character>
   <Character>
     <Name>Yaoyao</Name>
-    <ElementType>Anemo</ElementType>
+    <ElementType>Dendro</ElementType>
     <WeaponType>Polearm</WeaponType>
     <TalentItem>Diligence</TalentItem>
   </Character>
@@ -429,13 +429,13 @@
   </Character>
   <Character>
     <Name>Baizhu</Name>
-    <ElementType>Anemo</ElementType>
+    <ElementType>Dendro</ElementType>
     <WeaponType>Catalyst</WeaponType>
     <TalentItem>Gold</TalentItem>
   </Character>
   <Character>
     <Name>Kaveh</Name>
-    <ElementType>Anemo</ElementType>
+    <ElementType>Dendro</ElementType>
     <WeaponType>Claymore</WeaponType>
     <TalentItem>Ingenuity</TalentItem>
   </Character>
