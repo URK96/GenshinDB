@@ -439,4 +439,22 @@
     <WeaponType>Claymore</WeaponType>
     <TalentItem>Ingenuity</TalentItem>
   </Character>
+  <Character>
+    <Name>Kirara</Name>
+    <ElementType>Dendro</ElementType>
+    <WeaponType>Sword</WeaponType>
+    <TalentItem>Transience</TalentItem>
+  </Character>
+  <Character>
+    <Name>Lynette</Name>
+    <ElementType>Anemo</ElementType>
+    <WeaponType>Sword</WeaponType>
+    <TalentItem>Order</TalentItem>
+  </Character>
+  <Character>
+    <Name>Lyney</Name>
+    <ElementType>Pyro</ElementType>
+    <WeaponType>Bow</WeaponType>
+    <TalentItem>Equity</TalentItem>
+  </Character>
 </NewDataSet>

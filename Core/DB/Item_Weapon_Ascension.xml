@@ -77,4 +77,19 @@
     <Location>Sumeru</Location>
     <DayOfWeek>3,6</DayOfWeek>
   </Item_Weapon_Ascension>
+  <Item_Weapon_Ascension>
+    <Name>Ancient Chord</Name>
+    <Location>Fontaine</Location>
+    <DayOfWeek>1,4</DayOfWeek>
+  </Item_Weapon_Ascension>
+  <Item_Weapon_Ascension>
+    <Name>Pure Sacred Dewdrop</Name>
+    <Location>Fontaine</Location>
+    <DayOfWeek>2,5</DayOfWeek>
+  </Item_Weapon_Ascension>
+  <Item_Weapon_Ascension>
+    <Name>Pristine Sea</Name>
+    <Location>Fontaine</Location>
+    <DayOfWeek>3,6</DayOfWeek>
+  </Item_Weapon_Ascension>
 </NewDataSet>

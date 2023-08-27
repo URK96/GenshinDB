@@ -34,6 +34,8 @@ namespace GenshinDB_Core.Types
                 "Liyue" => GenshinDB.Locations.Liyue,
                 "Inazuma" => GenshinDB.Locations.Inazuma,
                 "Sumeru" => GenshinDB.Locations.Sumeru,
+                "Fontaine" => GenshinDB.Locations.Fontaine,
+
                 _ => GenshinDB.Locations.Mondstadt
             };
         }

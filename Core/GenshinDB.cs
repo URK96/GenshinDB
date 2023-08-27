@@ -14,7 +14,7 @@ namespace GenshinDB_Core
 {
     public class GenshinDB
     {
-        public enum Locations { Mondstadt = 0, Liyue, Inazuma, Sumeru }
+        public enum Locations { Mondstadt = 0, Liyue, Inazuma, Sumeru, Fontaine }
         public enum ElementTypes { Pyro = 0, Hydro, Dendro, Electro, Anemo, Cryo, Geo }
 
 
@@ -97,6 +97,8 @@ namespace GenshinDB_Core
                 Locations.Liyue => "Liyue",
                 Locations.Inazuma => "Inazuma",
                 Locations.Sumeru => "Sumeru",
+                Locations.Fontaine => "Fontaine",
+
                 _ => string.Empty
             };
 
@@ -113,13 +115,6 @@ namespace GenshinDB_Core
             }
 
             return locationNames;
-
-            //return new List<string>
-            //{
-            //    (from lang in langs where lang.Name.Equals("Mondstadt") select lang).First().Dic[langIndex],
-            //    (from lang in langs where lang.Name.Equals("Liyue") select lang).First().Dic[langIndex],
-            //    (from lang in langs where lang.Name.Equals("Inazuma") select lang).First().Dic[langIndex]
-            //};
         }
 
         public string FindLangDic(string name)

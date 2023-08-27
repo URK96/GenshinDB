@@ -77,4 +77,19 @@
     <Location>Sumeru</Location>
     <DayOfWeek>3,6</DayOfWeek>
   </Item_Talent>
+  <Item_Talent>
+    <Name>Equity</Name>
+    <Location>Fontaine</Location>
+    <DayOfWeek>1,4</DayOfWeek>
+  </Item_Talent>
+  <Item_Talent>
+    <Name>Justice</Name>
+    <Location>Fontaine</Location>
+    <DayOfWeek>2,5</DayOfWeek>
+  </Item_Talent>
+  <Item_Talent>
+    <Name>Order</Name>
+    <Location>Fontaine</Location>
+    <DayOfWeek>3,6</DayOfWeek>
+  </Item_Talent>
 </NewDataSet>

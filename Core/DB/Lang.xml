@@ -38,6 +38,11 @@
     <ko>수메르</ko>
   </Lang>
   <Lang>
+    <Name>Fontaine</Name>
+    <Default>Fontaine</Default>
+    <ko>폰타인</ko>
+  </Lang>
+  <Lang>
     <Name>Albedo</Name>
     <Default>Albedo</Default>
     <ko>알베도</ko>
@@ -791,5 +796,112 @@
     <Name>Kaveh</Name>
     <Default>Kaveh</Default>
     <ko>카베</ko>
+  </Lang>
+  <Lang>
+    <Name>Equity</Name>
+    <Default>Equity</Default>
+    <ko>공평</ko>
+  </Lang>
+  <Lang>
+    <Name>Justice</Name>
+    <Default>Justice</Default>
+    <ko>정의</ko>
+  </Lang>
+  <Lang>
+    <Name>Order</Name>
+    <Default>Order</Default>
+    <ko>질서</ko>
+  </Lang>
+  
+  <Lang>
+    <Name>Ancient Chord</Name>
+    <Default>Ancient Chord</Default>
+    <ko>Ancient Chord</ko>
+  </Lang>
+  <Lang>
+    <Name>Ancient Chord_1</Name>
+    <Default>Fragment of an Ancient Chord</Default>
+    <ko>Ancient Chord</ko>
+  </Lang>
+  <Lang>
+    <Name>Ancient Chord_2</Name>
+    <Default>Chapter of an Ancient Chord</Default>
+    <ko>Ancient Chord</ko>
+  </Lang>
+  <Lang>
+    <Name>Ancient Chord_3</Name>
+    <Default>Movement of an Ancient Chord</Default>
+    <ko>Ancient Chord</ko>
+  </Lang>
+  <Lang>
+    <Name>Ancient Chord_4</Name>
+    <Default>Echo of an Ancient Chord</Default>
+    <ko>Ancient Chord</ko>
+  </Lang>
+  <Lang>
+    <Name>Pure Sacred Dewdrop</Name>
+    <Default>Pure Sacred Dewdrop</Default>
+    <ko>Pure Sacred Dewdrop</ko>
+  </Lang>
+  <Lang>
+    <Name>Pure Sacred Dewdrop_1</Name>
+    <Default>Dross of Pure Sacred Dewdrop</Default>
+    <ko>Pure Sacred Dewdrop</ko>
+  </Lang>
+  <Lang>
+    <Name>Pure Sacred Dewdrop_2</Name>
+    <Default>Sublimation of Pure Sacred Dewdrop</Default>
+    <ko>Pure Sacred Dewdrop</ko>
+  </Lang>
+  <Lang>
+    <Name>Pure Sacred Dewdrop_3</Name>
+    <Default>Spring of Pure Sacred Dewdrop</Default>
+    <ko>Pure Sacred Dewdrop</ko>
+  </Lang>
+  <Lang>
+    <Name>Pure Sacred Dewdrop_4</Name>
+    <Default>Essence of Pure Sacred Dewdrop</Default>
+    <ko>Pure Sacred Dewdrop</ko>
+  </Lang>
+  <Lang>
+    <Name>Pristine Sea</Name>
+    <Default>Pristine Sea</Default>
+    <ko>Pristine Sea</ko>
+  </Lang>
+  <Lang>
+    <Name>Pristine Sea_1</Name>
+    <Default>Broken Goblet of the Pristine Sea</Default>
+    <ko>Pristine Sea</ko>
+  </Lang>
+  <Lang>
+    <Name>Pristine Sea_2</Name>
+    <Default>Wine Goblet of the Pristine Sea</Default>
+    <ko>Pristine Sea</ko>
+  </Lang>
+  <Lang>
+    <Name>Pristine Sea_3</Name>
+    <Default>Silver Goblet of the Pristine Sea</Default>
+    <ko>Pristine Sea</ko>
+  </Lang>
+  <Lang>
+    <Name>Pristine Sea_4</Name>
+    <Default>Golden Goblet of the Pristine Sea</Default>
+    <ko>Pristine Sea</ko>
+  </Lang>
+
+  <Lang>
+    <Name>Kirara</Name>
+    <Default>Kirara</Default>
+    <ko>키라라</ko>
+  </Lang>
+  <Lang>
+    <Name>Lynette</Name>
+    <Default>Lynette</Default>
+    <ko>리넷</ko>
+  </Lang>
+  <Lang>
+    <Name>Lyney</Name>
+    <Default>Lyney</Default>
+    <ko>리니</ko>
   </Lang>
 </NewDataSet>
