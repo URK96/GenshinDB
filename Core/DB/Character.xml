@@ -176,6 +176,12 @@
     <TalentItem>Admonition,Praxis,Ingenuity</TalentItem>
   </Character>
   <Character>
+    <Name>Traveler</Name>
+    <ElementType>Hydro</ElementType>
+    <WeaponType>Sword</WeaponType>
+    <TalentItem>Order,Equity,Justice</TalentItem>
+  </Character>
+  <Character>
     <Name>Venti</Name>
     <ElementType>Anemo</ElementType>
     <WeaponType>Bow</WeaponType>
@@ -456,5 +462,36 @@
     <ElementType>Pyro</ElementType>
     <WeaponType>Bow</WeaponType>
     <TalentItem>Equity</TalentItem>
+  </Character>
+
+  <Character>
+    <Name>Charlotte</Name>
+    <ElementType>Cryo</ElementType>
+    <WeaponType>Catalyst</WeaponType>
+    <TalentItem>Justice</TalentItem>
+  </Character>
+  <Character>
+    <Name>Freminet</Name>
+    <ElementType>Cryo</ElementType>
+    <WeaponType>Claymore</WeaponType>
+    <TalentItem>Justice</TalentItem>
+  </Character>
+  <Character>
+    <Name>Furina</Name>
+    <ElementType>Hydro</ElementType>
+    <WeaponType>Sword</WeaponType>
+    <TalentItem>Justice</TalentItem>
+  </Character>
+  <Character>
+    <Name>Neuvillette</Name>
+    <ElementType>Hydro</ElementType>
+    <WeaponType>Catalyst</WeaponType>
+    <TalentItem>Equity</TalentItem>
+  </Character>
+  <Character>
+    <Name>Wriothesley</Name>
+    <ElementType>Cryo</ElementType>
+    <WeaponType>Catalyst</WeaponType>
+    <TalentItem>Order</TalentItem>
   </Character>
 </NewDataSet>

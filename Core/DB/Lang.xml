@@ -904,4 +904,30 @@
     <Default>Lyney</Default>
     <ko>리니</ko>
   </Lang>
+
+  <Lang>
+    <Name>Charlotte</Name>
+    <Default>Charlotte</Default>
+    <ko>샤를로트</ko>
+  </Lang>
+  <Lang>
+    <Name>Freminet</Name>
+    <Default>Freminet</Default>
+    <ko>프레미네</ko>
+  </Lang>
+  <Lang>
+    <Name>Furina</Name>
+    <Default>Furina</Default>
+    <ko>푸리나</ko>
+  </Lang>
+  <Lang>
+    <Name>Neuvillette</Name>
+    <Default>Neuvillette</Default>
+    <ko>느비예트</ko>
+  </Lang>
+  <Lang>
+    <Name>Wriothesley</Name>
+    <Default>Wriothesley</Default>
+    <ko>라이오슬리</ko>
+  </Lang>
 </NewDataSet>
